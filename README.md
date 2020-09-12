@@ -11,3 +11,7 @@ The file `ProblemStatement.odt` contains the problems that are solved here. The 
 4. Type `make` command and press enter. This command will generate object 
 	file for the program. (Do this step whenever you make any changes in code.)
 5. To run the program, type `./a.out` command and press enter.
+
+### Contact
+
+For queries and suggestions write at kavitawaghh@gmail.com.
