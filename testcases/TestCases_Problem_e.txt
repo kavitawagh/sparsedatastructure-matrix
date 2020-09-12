@@ -1,0 +1,121 @@
+Test Cases for Problem (e)
+-------------------------------------------------------------------
+
+TEST CASE 1: 
+
+	INPUT: (COO) Output of TEST CASE 1 of Problem (a).
+	
+			Data    Row Index    Col Index
+			----    ---------    ---------
+
+	OUTPUT:
+
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+
+
+TEST CASE 2: 
+
+	INPUT: (COO) Output of TEST CASE 2 of Problem (a).
+
+			Data    Row Index    Col Index
+			----    ---------    ---------
+			-501            0            0
+
+	OUTPUT:
+		-501 
+
+
+TEST CASE 3: 
+
+	INPUT: (CSR) Output of TEST CASE 3 of Problem (b).
+	
+
+			 Data  Row Pointer    Col Index
+			----  -----------    ---------
+			-154            0            0
+			 -16            5            1
+			-388           10            2
+			 969           15            3
+			 112           20            4
+			-289           25            0
+			 740                         1
+			-975                         2
+			 193                         3
+			 185                         4
+			  18                         0
+			 778                         1
+			 321                         2
+			-934                         3
+			 169                         4
+			-722                         0
+			-842                         1
+			 -94                         2
+			-803                         3
+			-737                         4
+			 233                         0
+			-583                         1
+			 554                         2
+			 483                         3
+			-598                         4
+
+	OUTPUT:
+
+		-154          -16         -388          969          112 
+		-289          740         -975          193          185 
+		  18          778          321         -934          169 
+		-722         -842          -94         -803         -737 
+		 233         -583          554          483         -598 
+
+
+TEST CASE 4: 
+
+	INPUT: (CSC) Output of TEST CASE 1 of Problem (b).
+
+			Data    Row Index  Col Pointer
+			----    ---------  -----------
+
+	OUTPUT:
+
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+		   0            0            0            0            0            0            0            0 
+
+TEST CASE 5: 
+
+	INPUT: (CSC) Output of TEST CASE 4 of Problem (b)
+	
+			Data    Row Index  Col Pointer
+			----    ---------  -----------
+			-184            0            0
+			-173            0            0
+			-772            0            1
+			  -1            0            2
+			 -22            0            3
+			-800            0            4
+			-210            0            5
+			-793            0            6
+			-851            0            7
+				                     8
+				                     9
+
+	OUTPUT:
+
+	           0         -184         -173         -772           -1          -22         -800         -210         -793         -851 
+
+

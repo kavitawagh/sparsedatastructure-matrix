@@ -1,0 +1,122 @@
+Test Cases for Problem (a)
+-------------------------------------------------------------------
+
+TEST CASE 1: Generate COO format Zero Matrix
+
+	INPUT: 
+
+		Enter no. of rows and no. of columns in matrix: 10 8
+		Enter density of non-zero entries in matrix: 0
+		Enter percentage of negative elements in matrix: 0
+
+	OUTPUT: (COO)
+
+			Data    Row Index    Col Index
+			----    ---------    ---------
+
+
+TEST CASE 2: Generate 1x1 non-zero matrix
+
+	INPUT: 
+
+		Enter no. of rows and no. of columns in matrix: 1 1
+		Enter density of non-zero entries in matrix: 100
+		Enter percentage of negative elements in matrix: 100
+
+	OUTPUT: (COO)
+
+			Data    Row Index    Col Index
+			----    ---------    ---------
+			-501            0            0
+
+
+TEST CASE 3: Generate 5x5 matrix having all entries non-zero
+	
+	INPUT: 
+	
+		Enter no. of rows and no. of columns in matrix: 5 5
+		Enter density of non-zero entries in matrix: 100
+		Enter percentage of negative elements in matrix: 50
+
+	OUTPUT: (COO)
+
+			Data    Row Index    Col Index
+			----    ---------    ---------
+			-154            0            0
+			 -16            0            1
+			-388            0            2
+			 969            0            3
+			 112            0            4
+			-289            1            0
+			 740            1            1
+			-975            1            2
+			 193            1            3
+			 185            1            4
+			  18            2            0
+			 778            2            1
+			 321            2            2
+			-934            2            3
+			 169            2            4
+			-722            3            0
+			-842            3            1
+			 -94            3            2
+			-803            3            3
+			-737            3            4
+			 233            4            0
+			-583            4            1
+			 554            4            2
+			 483            4            3
+			-598            4            4
+
+
+TEST CASE 4: Generate row matrix
+	
+	INPUT: 
+
+		Enter no. of rows and no. of columns in matrix: 1 10
+		Enter density of non-zero entries in matrix: 90
+		Enter percentage of negative elements in matrix: 90
+
+	OUTPUT: (COO)	
+
+			Data    Row Index    Col Index
+			----    ---------    ---------
+			-184            0            1
+			-173            0            2
+			-772            0            3
+			  -1            0            4
+			 -22            0            5
+			-800            0            6
+			-210            0            7
+			-793            0            8
+			-851            0            9
+
+
+TEST CASE 5: Generate 150x100 sparse matrix
+
+	INPUT:
+
+		Enter no. of rows and no. of columns in matrix: 150 100
+		Enter density of non-zero entries in matrix: 0.1
+		Enter percentage of negative elements in matrix: 0.05
+
+	OUTPUT: (COO)
+
+			Data    Row Index    Col Index
+			----    ---------    ---------
+			-640            5           92
+			-285           13           94
+			 702           26           24
+			-577           49           86
+			 886           55           68
+			-928           61           25
+			 -59           69           29
+			-952           72           97
+			-434           74           34
+			 173           84           74
+			 965           85           59
+			 337           98           31
+			 638          122           88
+			 525          129           33
+			-266          136           26
+
